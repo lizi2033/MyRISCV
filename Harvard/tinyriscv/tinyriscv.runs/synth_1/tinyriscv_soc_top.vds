@@ -1,0 +1,666 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Apr 22 23:09:53 2025
+# Process ID: 20076
+# Current directory: D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.runs/synth_1
+# Command line: vivado.exe -log tinyriscv_soc_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tinyriscv_soc_top.tcl
+# Log file: D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.runs/synth_1/tinyriscv_soc_top.vds
+# Journal file: D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source tinyriscv_soc_top.tcl -notrace
+Command: synth_design -top tinyriscv_soc_top -part xc7a100tfgg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20788
+WARNING: [Synth 8-6901] identifier 'req' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_rx.v:60]
+WARNING: [Synth 8-6901] identifier 'req' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_rx.v:68]
+WARNING: [Synth 8-6901] identifier 'ack' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_tx.v:71]
+WARNING: [Synth 8-6901] identifier 'ack' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_tx.v:79]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_dm with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_dm.v:60]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_dm with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_dm.v:61]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_dm with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_dm.v:62]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:47]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:48]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:49]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:51]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:52]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:54]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:55]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:56]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:72]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:73]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:74]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:75]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:76]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:77]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:78]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:79]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:80]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:81]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:82]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:83]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:84]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:85]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:86]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:87]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:90]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:91]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:92]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_driver with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:93]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_top with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_top.v:48]
+WARNING: [Synth 8-2507] parameter declaration becomes local in jtag_top with formal parameter declaration list [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_top.v:49]
+WARNING: [Synth 8-992] ex_jump_flag_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:335]
+WARNING: [Synth 8-992] ex_jump_addr_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:336]
+WARNING: [Synth 8-992] ex_reg_waddr_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:337]
+WARNING: [Synth 8-992] ex_reg_wdata_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:338]
+WARNING: [Synth 8-992] is_load_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:339]
+WARNING: [Synth 8-992] mem_reg_we_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:474]
+WARNING: [Synth 8-992] mem_reg_waddr_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:475]
+WARNING: [Synth 8-992] mem_reg_wdata_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:494]
+WARNING: [Synth 8-992] mem_hold_flag_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:495]
+WARNING: [Synth 8-992] wb_reg_wdata_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:628]
+WARNING: [Synth 8-992] wb_reg_we_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:629]
+WARNING: [Synth 8-992] wb_reg_waddr_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:630]
+WARNING: [Synth 8-992] wb_csr_wdata_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:631]
+WARNING: [Synth 8-992] wb_csr_we_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:632]
+WARNING: [Synth 8-992] wb_csr_waddr_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:633]
+WARNING: [Synth 8-992] wb_jump_flag_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:635]
+WARNING: [Synth 8-6901] identifier 'mem_mem_we_o' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:142]
+WARNING: [Synth 8-6901] identifier 'mem_mem_waddr_o' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:142]
+WARNING: [Synth 8-6901] identifier 'mem_mem_raddr_o' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:142]
+WARNING: [Synth 8-6901] identifier 'mem_mem_wdata_o' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:143]
+WARNING: [Synth 8-6901] identifier 'mem_mem_req_o' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:144]
+WARNING: [Synth 8-6901] identifier 'mem_mem_we_o' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:145]
+WARNING: [Synth 8-992] axil_hold_flag_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:420]
+WARNING: [Synth 8-992] axil_flush_flag_o is already implicitly declared earlier [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:421]
+WARNING: [Synth 8-6901] identifier 'S_AXI_AWREADY' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:426]
+WARNING: [Synth 8-6901] identifier 'S_AXI_WREADY' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:427]
+WARNING: [Synth 8-6901] identifier 'S_AXI_BRESP' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:428]
+WARNING: [Synth 8-6901] identifier 'S_AXI_BVALID' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:429]
+WARNING: [Synth 8-6901] identifier 'S_AXI_ARREADY' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:430]
+WARNING: [Synth 8-6901] identifier 'S_AXI_RDATA' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:431]
+WARNING: [Synth 8-6901] identifier 'S_AXI_RRESP' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:432]
+WARNING: [Synth 8-6901] identifier 'S_AXI_RVALID' is used before its declaration [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:433]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1282.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'tinyriscv_soc_top' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:20]
+INFO: [Synth 8-6085] Hierarchical reference on 'regs' stops possible memory inference [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/regs.v:52]
+INFO: [Synth 8-6157] synthesizing module 'tinyriscv' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:20]
+INFO: [Synth 8-6157] synthesizing module 'pc_reg' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/pc_reg.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'pc_reg' (1#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/pc_reg.v:20]
+INFO: [Synth 8-6157] synthesizing module 'ctrl' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/ctrl.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'ctrl' (2#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/ctrl.v:21]
+WARNING: [Synth 8-7071] port 'hold_flag_ex_i' of module 'ctrl' is unconnected for instance 'u_ctrl' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:169]
+WARNING: [Synth 8-7023] instance 'u_ctrl' of module 'ctrl' has 14 connections declared, but only 13 given [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:169]
+INFO: [Synth 8-6157] synthesizing module 'regs' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/regs.v:20]
+INFO: [Synth 8-6085] Hierarchical reference on 'regs' stops possible memory inference [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/regs.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'regs' (3#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/regs.v:20]
+INFO: [Synth 8-6157] synthesizing module 'csr_reg' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/csr_reg.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'csr_reg' (4#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/csr_reg.v:20]
+INFO: [Synth 8-6157] synthesizing module 'if_id' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/if_id.v:20]
+INFO: [Synth 8-6157] synthesizing module 'gen_pipe_dff' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/gen_dff.v:18]
+	Parameter DW bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'gen_pipe_dff' (5#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/gen_dff.v:18]
+INFO: [Synth 8-6157] synthesizing module 'gen_pipe_dff__parameterized0' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/gen_dff.v:18]
+	Parameter DW bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'gen_pipe_dff__parameterized0' (5#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/gen_dff.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'if_id' (6#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/if_id.v:20]
+INFO: [Synth 8-6157] synthesizing module 'id' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/id.v:21]
+INFO: [Synth 8-226] default block is never used [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/id.v:102]
+INFO: [Synth 8-226] default block is never used [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/id.v:121]
+INFO: [Synth 8-226] default block is never used [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/id.v:138]
+INFO: [Synth 8-6155] done synthesizing module 'id' (7#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/id.v:21]
+INFO: [Synth 8-6157] synthesizing module 'id_ex' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/id_ex.v:20]
+INFO: [Synth 8-6157] synthesizing module 'gen_pipe_dff__parameterized1' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/gen_dff.v:18]
+	Parameter DW bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'gen_pipe_dff__parameterized1' (7#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/gen_dff.v:18]
+INFO: [Synth 8-6157] synthesizing module 'gen_pipe_dff__parameterized2' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/gen_dff.v:18]
+	Parameter DW bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'gen_pipe_dff__parameterized2' (7#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/gen_dff.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'id_ex' (8#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/id_ex.v:20]
+INFO: [Synth 8-6157] synthesizing module 'ex' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/exe.v:1]
+INFO: [Synth 8-226] default block is never used [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/exe.v:264]
+INFO: [Synth 8-226] default block is never used [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/exe.v:302]
+INFO: [Synth 8-6155] done synthesizing module 'ex' (9#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/exe.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ex_mem' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v:1]
+WARNING: [Synth 8-689] width (32) of port connection 'din' does not match port width (5) of module 'gen_pipe_dff__parameterized1' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v:132]
+INFO: [Synth 8-6157] synthesizing module 'gen_pipe_dff__parameterized3' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/gen_dff.v:18]
+	Parameter DW bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'gen_pipe_dff__parameterized3' (9#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/gen_dff.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'ex_mem' (10#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v:1]
+WARNING: [Synth 8-7071] port 'inst_addr_i' of module 'ex_mem' is unconnected for instance 'u_ex_mem' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:420]
+WARNING: [Synth 8-7023] instance 'u_ex_mem' of module 'ex_mem' has 48 connections declared, but only 47 given [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:420]
+INFO: [Synth 8-6157] synthesizing module 'mem' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/mem.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mem' (11#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/mem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mem_wb' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/mem_wb.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mem_wb' (12#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/mem_wb.v:1]
+WARNING: [Synth 8-7071] port 'mem_req_i' of module 'mem_wb' is unconnected for instance 'u_mem_wb' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:575]
+WARNING: [Synth 8-7023] instance 'u_mem_wb' of module 'mem_wb' has 51 connections declared, but only 50 given [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:575]
+INFO: [Synth 8-6157] synthesizing module 'wb' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/wb.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'wb' (13#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/wb.v:3]
+WARNING: [Synth 8-689] width (5) of port connection 'csr_waddr_o' does not match port width (32) of module 'wb' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:664]
+INFO: [Synth 8-6157] synthesizing module 'div' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/div.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/div.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'div' (14#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/div.v:22]
+INFO: [Synth 8-6157] synthesizing module 'clint' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/clint.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'clint' (15#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/clint.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'tinyriscv' (16#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:20]
+INFO: [Synth 8-6157] synthesizing module 'rom' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/rom.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'rom' (17#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/rom.v:20]
+INFO: [Synth 8-6157] synthesizing module 'ram' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/ram.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'ram' (18#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/ram.v:20]
+INFO: [Synth 8-6157] synthesizing module 'timer' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/timer.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/timer.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'timer' (19#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/timer.v:21]
+INFO: [Synth 8-6157] synthesizing module 'uart' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/uart.v:19]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/uart.v:102]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/uart.v:183]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/uart.v:307]
+INFO: [Synth 8-6155] done synthesizing module 'uart' (20#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/uart.v:19]
+INFO: [Synth 8-6157] synthesizing module 'spi' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/spi.v:19]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/spi.v:140]
+INFO: [Synth 8-6155] done synthesizing module 'spi' (21#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/spi.v:19]
+INFO: [Synth 8-6157] synthesizing module 'rib' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/rib.v:21]
+INFO: [Synth 8-226] default block is never used [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/rib.v:188]
+INFO: [Synth 8-6155] done synthesizing module 'rib' (22#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/rib.v:21]
+INFO: [Synth 8-6157] synthesizing module 'uart_debug' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:44]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:108]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:220]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:236]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:256]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:269]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:288]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:306]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:324]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:342]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:360]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:379]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:404]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:423]
+INFO: [Synth 8-6155] done synthesizing module 'uart_debug' (23#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v:44]
+INFO: [Synth 8-6157] synthesizing module 'jtag_top' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_top.v:20]
+	Parameter DMI_ADDR_BITS bound to: 6 - type: integer 
+	Parameter DMI_DATA_BITS bound to: 32 - type: integer 
+	Parameter DMI_OP_BITS bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'jtag_driver' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:23]
+	Parameter DMI_ADDR_BITS bound to: 6 - type: integer 
+	Parameter DMI_DATA_BITS bound to: 32 - type: integer 
+	Parameter DMI_OP_BITS bound to: 2 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:162]
+INFO: [Synth 8-6157] synthesizing module 'full_handshake_tx' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_tx.v:23]
+	Parameter DW bound to: 40 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_tx.v:115]
+INFO: [Synth 8-6155] done synthesizing module 'full_handshake_tx' (24#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_tx.v:23]
+INFO: [Synth 8-6157] synthesizing module 'full_handshake_rx' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_rx.v:23]
+	Parameter DW bound to: 40 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_rx.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'full_handshake_rx' (25#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_rx.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'jtag_driver' (26#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v:23]
+INFO: [Synth 8-6157] synthesizing module 'jtag_dm' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_dm.v:27]
+	Parameter DMI_ADDR_BITS bound to: 6 - type: integer 
+	Parameter DMI_DATA_BITS bound to: 32 - type: integer 
+	Parameter DMI_OP_BITS bound to: 2 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_dm.v:204]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_dm.v:161]
+INFO: [Synth 8-6155] done synthesizing module 'jtag_dm' (27#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_dm.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'jtag_top' (28#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_top.v:20]
+INFO: [Synth 8-6157] synthesizing module 'axil' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/axil.v:3]
+	Parameter C_M_START_DATA_VALUE bound to: 1073741824 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 28 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axil' (29#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/axil.v:3]
+INFO: [Synth 8-6157] synthesizing module 'S_AXIL' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/S_AXIL.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 28 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'S_AXIL' (30#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/S_AXIL.v:4]
+WARNING: [Synth 8-7071] port 'wren' of module 'S_AXIL' is unconnected for instance 'S_AXIL_u0' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:513]
+WARNING: [Synth 8-7071] port 'rden' of module 'S_AXIL' is unconnected for instance 'S_AXIL_u0' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:513]
+WARNING: [Synth 8-7071] port 'mem_address' of module 'S_AXIL' is unconnected for instance 'S_AXIL_u0' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:513]
+WARNING: [Synth 8-7071] port 'mem_wdata' of module 'S_AXIL' is unconnected for instance 'S_AXIL_u0' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:513]
+WARNING: [Synth 8-7071] port 'mem_rdata' of module 'S_AXIL' is unconnected for instance 'S_AXIL_u0' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:513]
+WARNING: [Synth 8-7023] instance 'S_AXIL_u0' of module 'S_AXIL' has 26 connections declared, but only 21 given [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:513]
+INFO: [Synth 8-6155] done synthesizing module 'tinyriscv_soc_top' (31#1) [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:20]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1282.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1282.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1282.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.134 . Memory (MB): peak = 1282.176 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.xdc]
+WARNING: [Vivado 12-507] No nets matched 'jtag_TCK_IBUF'. [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tinyriscv_soc_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tinyriscv_soc_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1382.008 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1382.008 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1382.008 ; gain = 99.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tfgg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1382.008 ; gain = 99.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1382.008 ; gain = 99.832
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'div'
+INFO: [Synth 8-802] inferred FSM for state register 'csr_state_reg' in module 'clint'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_debug'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'full_handshake_tx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'full_handshake_rx'
+INFO: [Synth 8-802] inferred FSM for state register 'jtag_state_reg' in module 'jtag_driver'
+WARNING: [Synth 8-327] inferring latch for variable 'reg1_rdata_o_reg' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/id.v:325]
+WARNING: [Synth 8-327] inferring latch for variable 'reg2_rdata_o_reg' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/id.v:341]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+              STATE_IDLE |                             0001 |                             0001
+             STATE_START |                             0010 |                             0010
+              STATE_CALC |                             0100 |                             0100
+               STATE_END |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'div'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+              S_CSR_IDLE |                            00001 |                            00001
+              S_CSR_MEPC |                            00100 |                            00100
+           S_CSR_MSTATUS |                            00010 |                            00010
+            S_CSR_MCAUSE |                            10000 |                            10000
+      S_CSR_MSTATUS_MRET |                            01000 |                            01000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'csr_state_reg' in module 'clint'
+WARNING: [Synth 8-327] inferring latch for variable 'grant_reg' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/core/rib.v:141]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                  S_IDLE |                   00000000000001 |                   00000000000001
+        S_INIT_UART_BAUD |                   00000000000010 |                   00000000000010
+      S_REC_FIRST_PACKET |                   00000001000000 |                   00000001000000
+S_CLEAR_UART_RX_OVER_FLAG |                   00000000000100 |                   00000000000100
+             S_WAIT_BYTE |                   00000000001000 |                   00000000001000
+            S_WAIT_BYTE2 |                   00000000010000 |                   00000000010000
+              S_GET_BYTE |                   00000000100000 |                   00000000100000
+             S_CRC_START |                   00010000000000 |                   00010000000000
+              S_CRC_CALC |                   00100000000000 |                   00100000000000
+               S_CRC_END |                   01000000000000 |                   01000000000000
+             S_WRITE_MEM |                   10000000000000 |                   10000000000000
+              S_SEND_ACK |                   00000100000000 |                   00000100000000
+              S_SEND_NAK |                   00001000000000 |                   00001000000000
+     S_REC_REMAIN_PACKET |                   00000010000000 |                   00000010000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'uart_debug'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+              STATE_IDLE |                              001 |                              001
+            STATE_ASSERT |                              010 |                              010
+          STATE_DEASSERT |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'full_handshake_tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+              STATE_IDLE |                               01 |                               01
+          STATE_DEASSERT |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'full_handshake_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+        TEST_LOGIC_RESET |                 0000000000000001 |                             0000
+           RUN_TEST_IDLE |                 0000000000000010 |                             0001
+               SELECT_DR |                 0000000000000100 |                             0010
+               SELECT_IR |                 0000000000001000 |                             1001
+              CAPTURE_IR |                 0000000000010000 |                             1010
+                SHIFT_IR |                 0000000000100000 |                             1011
+                EXIT1_IR |                 0000000001000000 |                             1100
+                PAUSE_IR |                 0000000010000000 |                             1101
+                EXIT2_IR |                 0000000100000000 |                             1110
+               UPDATE_IR |                 0000001000000000 |                             1111
+              CAPTURE_DR |                 0000010000000000 |                             0011
+                SHIFT_DR |                 0000100000000000 |                             0100
+                EXIT1_DR |                 0001000000000000 |                             0101
+                PAUSE_DR |                 0010000000000000 |                             0110
+                EXIT2_DR |                 0100000000000000 |                             0111
+               UPDATE_DR |                 1000000000000000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'jtag_state_reg' using encoding 'one-hot' in module 'jtag_driver'
+WARNING: [Synth 8-327] inferring latch for variable 'm_data_reg' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/axil.v:68]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_rdata_reg' [D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.ip_user_files/rtl/perips/S_AXIL.v:60]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 1382.008 ; gain = 99.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   64 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 15    
+	   3 Input   32 Bit       Adders := 2     
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 7     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 4     
+	   2 Input    2 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input     16 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               40 Bit    Registers := 7     
+	               32 Bit    Registers := 114   
+	               28 Bit    Registers := 2     
+	               16 Bit    Registers := 3     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 142   
+	                5 Bit    Registers := 14    
+	                4 Bit    Registers := 6     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 70    
++---Muxes : 
+	   4 Input   40 Bit        Muxes := 4     
+	   3 Input   40 Bit        Muxes := 3     
+	   2 Input   40 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 262   
+	  33 Input   32 Bit        Muxes := 1     
+	   9 Input   32 Bit        Muxes := 2     
+	   8 Input   32 Bit        Muxes := 4     
+	  13 Input   32 Bit        Muxes := 1     
+	   6 Input   32 Bit        Muxes := 2     
+	   4 Input   32 Bit        Muxes := 26    
+	   3 Input   32 Bit        Muxes := 2     
+	   7 Input   32 Bit        Muxes := 30    
+	   5 Input   32 Bit        Muxes := 11    
+	  15 Input   32 Bit        Muxes := 2     
+	   2 Input   31 Bit        Muxes := 1     
+	   2 Input   28 Bit        Muxes := 26    
+	   7 Input   28 Bit        Muxes := 24    
+	   4 Input   28 Bit        Muxes := 6     
+	   2 Input   16 Bit        Muxes := 21    
+	  15 Input   16 Bit        Muxes := 1     
+	   3 Input   16 Bit        Muxes := 1     
+	  16 Input   16 Bit        Muxes := 1     
+	  15 Input   14 Bit        Muxes := 1     
+	   2 Input   14 Bit        Muxes := 2     
+	  13 Input   12 Bit        Muxes := 1     
+	   3 Input   12 Bit        Muxes := 1     
+	   5 Input   12 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 1     
+	   5 Input   10 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 3     
+	   4 Input    8 Bit        Muxes := 6     
+	   3 Input    8 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 29    
+	   3 Input    5 Bit        Muxes := 2     
+	  13 Input    5 Bit        Muxes := 1     
+	   6 Input    5 Bit        Muxes := 1     
+	   9 Input    4 Bit        Muxes := 2     
+	   5 Input    4 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 10    
+	   4 Input    4 Bit        Muxes := 1     
+	   3 Input    4 Bit        Muxes := 3     
+	   2 Input    3 Bit        Muxes := 11    
+	  13 Input    3 Bit        Muxes := 3     
+	   7 Input    3 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 1     
+	   4 Input    3 Bit        Muxes := 3     
+	   8 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 15    
+	   8 Input    2 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 4     
+	   4 Input    2 Bit        Muxes := 2     
+	   5 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 340   
+	   7 Input    1 Bit        Muxes := 45    
+	   8 Input    1 Bit        Muxes := 10    
+	   3 Input    1 Bit        Muxes := 28    
+	  13 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 179   
+	   6 Input    1 Bit        Muxes := 3     
+	   5 Input    1 Bit        Muxes := 19    
+	  15 Input    1 Bit        Muxes := 5     
+	  10 Input    1 Bit        Muxes := 1     
+	  11 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP mul_temp, operation Mode is: A*B.
+DSP Report: operator mul_temp is absorbed into DSP mul_temp.
+DSP Report: operator mul_temp is absorbed into DSP mul_temp.
+DSP Report: Generating DSP mul_temp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_temp is absorbed into DSP mul_temp.
+DSP Report: operator mul_temp is absorbed into DSP mul_temp.
+DSP Report: Generating DSP mul_temp, operation Mode is: A*B.
+DSP Report: operator mul_temp is absorbed into DSP mul_temp.
+DSP Report: operator mul_temp is absorbed into DSP mul_temp.
+DSP Report: Generating DSP mul_temp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_temp is absorbed into DSP mul_temp.
+DSP Report: operator mul_temp is absorbed into DSP mul_temp.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:37 . Memory (MB): peak = 1523.195 ; gain = 241.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------------+----------------+-----------+----------------------+------------------+
+|Module Name       | RTL Object     | Inference | Size (Depth x Width) | Primitives       | 
++------------------+----------------+-----------+----------------------+------------------+
+|tinyriscv_soc_top | u_rom/_rom_reg | Implied   | 4 K x 32             | RAM256X1S x 512  | 
+|tinyriscv_soc_top | u_ram/_ram_reg | Implied   | 4 K x 32             | RAM256X1S x 512  | 
++------------------+----------------+-----------+----------------------+------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|ex          | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ex          | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ex          | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ex          | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 47     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:42 . Memory (MB): peak = 1523.195 ; gain = 241.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:55 . Memory (MB): peak = 1538.020 ; gain = 255.844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------------+----------------+-----------+----------------------+------------------+
+|Module Name       | RTL Object     | Inference | Size (Depth x Width) | Primitives       | 
++------------------+----------------+-----------+----------------------+------------------+
+|tinyriscv_soc_top | u_rom/_rom_reg | Implied   | 4 K x 32             | RAM256X1S x 512  | 
+|tinyriscv_soc_top | u_ram/_ram_reg | Implied   | 4 K x 32             | RAM256X1S x 512  | 
++------------------+----------------+-----------+----------------------+------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:59 . Memory (MB): peak = 1547.078 ; gain = 264.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:01:02 . Memory (MB): peak = 1547.078 ; gain = 264.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:01:02 . Memory (MB): peak = 1547.078 ; gain = 264.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:01:03 . Memory (MB): peak = 1547.078 ; gain = 264.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:01:03 . Memory (MB): peak = 1547.078 ; gain = 264.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:01:03 . Memory (MB): peak = 1547.078 ; gain = 264.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:01:03 . Memory (MB): peak = 1547.078 ; gain = 264.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     6|
+|2     |CARRY4    |   223|
+|3     |DSP48E1   |     4|
+|4     |LUT1      |   301|
+|5     |LUT2      |   887|
+|6     |LUT3      |   562|
+|7     |LUT4      |  1038|
+|8     |LUT5      |  1779|
+|9     |LUT6      |  6001|
+|10    |MUXF7     |   881|
+|11    |MUXF8     |   320|
+|12    |RAM256X1S |  1024|
+|13    |FDCE      |   559|
+|14    |FDPE      |    11|
+|15    |FDRE      |  4179|
+|16    |FDSE      |    13|
+|17    |LD        |    64|
+|18    |LDC       |    64|
+|19    |IBUF      |     8|
+|20    |OBUF      |     8|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:01:03 . Memory (MB): peak = 1547.078 ; gain = 264.902
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:01:01 . Memory (MB): peak = 1547.078 ; gain = 165.070
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:01:03 . Memory (MB): peak = 1547.078 ; gain = 264.902
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.140 . Memory (MB): peak = 1547.078 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2580 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1547.078 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1152 instances were transformed.
+  LD => LDCE: 64 instances
+  LDC => LDCE: 64 instances
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 1024 instances
+
+Synth Design complete, checksum: a1ebac11
+INFO: [Common 17-83] Releasing license: Synthesis
+129 Infos, 89 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:01:08 . Memory (MB): peak = 1547.078 ; gain = 264.902
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/tinyriscv.runs/synth_1/tinyriscv_soc_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file tinyriscv_soc_top_utilization_synth.rpt -pb tinyriscv_soc_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 22 23:11:06 2025...

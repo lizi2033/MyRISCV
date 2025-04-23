@@ -1,0 +1,73 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado2021/Install/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 165fd52f34154a85b8c19c91a544f8e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tinyriscv_soc_tb_behav xil_defaultlib.tinyriscv_soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 32 for port 'waddr_i' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:208]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/id_ex.v:74]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/id_ex.v:78]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v:86]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v:90]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v:94]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v:99]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v:103]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v:128]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v:132]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v:140]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v:144]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 2 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v:152]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 2 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v:156]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/mem_wb.v:107]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/mem_wb.v:111]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/mem_wb.v:127]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/mem_wb.v:131]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'def_val' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/mem_wb.v:135]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 32 for port 'csr_waddr_o' [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:664]
+WARNING: [VRFC 10-5021] port 'uart_rx_pin' is not connected on this instance [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.sim/tinyriscv_soc_tb.v:511]
+WARNING: [VRFC 10-5021] port 'mem_rdata' is not connected on this instance [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:508]
+WARNING: [VRFC 10-5021] port 'hold_flag_ex_i' is not connected on this instance [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:169]
+WARNING: [VRFC 10-5021] port 'inst_addr_i' is not connected on this instance [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:420]
+WARNING: [VRFC 10-5021] port 'mem_req_i' is not connected on this instance [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:575]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pc_reg
+Compiling module xil_defaultlib.ctrl
+Compiling module xil_defaultlib.regs
+Compiling module xil_defaultlib.csr_reg
+Compiling module xil_defaultlib.gen_pipe_dff
+Compiling module xil_defaultlib.gen_pipe_dff(DW=8)
+Compiling module xil_defaultlib.if_id
+Compiling module xil_defaultlib.id
+Compiling module xil_defaultlib.gen_pipe_dff(DW=5)
+Compiling module xil_defaultlib.gen_pipe_dff(DW=1)
+Compiling module xil_defaultlib.id_ex
+Compiling module xil_defaultlib.ex
+Compiling module xil_defaultlib.gen_pipe_dff(DW=2)
+Compiling module xil_defaultlib.ex_mem
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.mem_wb
+Compiling module xil_defaultlib.wb
+Compiling module xil_defaultlib.div
+Compiling module xil_defaultlib.clint
+Compiling module xil_defaultlib.tinyriscv
+Compiling module xil_defaultlib.rom
+Compiling module xil_defaultlib.ram
+Compiling module xil_defaultlib.timer
+Compiling module xil_defaultlib.uart
+Compiling module xil_defaultlib.spi
+Compiling module xil_defaultlib.rib
+Compiling module xil_defaultlib.uart_debug
+Compiling module xil_defaultlib.full_handshake_tx(DW=40)
+Compiling module xil_defaultlib.full_handshake_rx(DW=40)
+Compiling module xil_defaultlib.jtag_driver_default
+Compiling module xil_defaultlib.jtag_dm_default
+Compiling module xil_defaultlib.jtag_top_default
+Compiling module xil_defaultlib.axil(C_M_AXI_ADDR_WIDTH=28)
+Compiling module xil_defaultlib.S_AXIL
+Compiling module xil_defaultlib.tinyriscv_soc_top
+Compiling module xil_defaultlib.tinyriscv_soc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tinyriscv_soc_tb_behav
