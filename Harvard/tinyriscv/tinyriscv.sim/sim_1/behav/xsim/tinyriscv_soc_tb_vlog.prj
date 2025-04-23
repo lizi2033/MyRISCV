@@ -1,0 +1,40 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/defines.v" --include "../../../../tinyriscv.ip_user_files/rtl/core" \
+"../../../../tinyriscv.ip_user_files/rtl/perips/S_AXIL.v" \
+"../../../../tinyriscv.ip_user_files/rtl/perips/axil.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/clint.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/csr_reg.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/ctrl.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/div.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/ex_mem.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/exe.v" \
+"../../../../tinyriscv.ip_user_files/rtl/utils/full_handshake_rx.v" \
+"../../../../tinyriscv.ip_user_files/rtl/utils/full_handshake_tx.v" \
+"../../../../tinyriscv.ip_user_files/rtl/utils/gen_dff.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/id.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/id_ex.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/if_id.v" \
+"../../../../tinyriscv.ip_user_files/rtl/debug/jtag_dm.v" \
+"../../../../tinyriscv.ip_user_files/rtl/debug/jtag_driver.v" \
+"../../../../tinyriscv.ip_user_files/rtl/debug/jtag_top.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/mem.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/mem_wb.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/pc_reg.v" \
+"../../../../tinyriscv.ip_user_files/rtl/perips/ram.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/regs.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/rib.v" \
+"../../../../tinyriscv.ip_user_files/rtl/perips/rom.v" \
+"../../../../tinyriscv.ip_user_files/rtl/perips/spi.v" \
+"../../../../tinyriscv.ip_user_files/rtl/perips/timer.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/tinyriscv.v" \
+"../../../../tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v" \
+"../../../../tinyriscv.ip_user_files/rtl/perips/uart.v" \
+"../../../../tinyriscv.ip_user_files/rtl/debug/uart_debug.v" \
+"../../../../tinyriscv.ip_user_files/rtl/core/wb.v" \
+"../../../tinyriscv_soc_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

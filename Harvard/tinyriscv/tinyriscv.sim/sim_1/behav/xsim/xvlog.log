@@ -1,0 +1,127 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/defines.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/perips/S_AXIL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S_AXIL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/perips/axil.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axil
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/clint.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clint
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/csr_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csr_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/ex_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/exe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex
+INFO: [VRFC 10-2458] undeclared symbol hold_flag_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/exe.v:155]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_handshake_rx
+WARNING: [VRFC 10-3380] identifier 'req' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_rx.v:60]
+WARNING: [VRFC 10-3380] identifier 'req' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_rx.v:68]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_handshake_tx
+WARNING: [VRFC 10-3380] identifier 'ack' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_tx.v:71]
+WARNING: [VRFC 10-3380] identifier 'ack' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/utils/full_handshake_tx.v:79]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/utils/gen_dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen_pipe_dff
+INFO: [VRFC 10-311] analyzing module gen_rst_0_dff
+INFO: [VRFC 10-311] analyzing module gen_rst_1_dff
+INFO: [VRFC 10-311] analyzing module gen_rst_def_dff
+INFO: [VRFC 10-311] analyzing module gen_en_dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/id_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/if_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_dm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jtag_dm
+INFO: [VRFC 10-2458] undeclared symbol tx_idle, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_dm.v:325]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jtag_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/debug/jtag_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jtag_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/mem_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_wb
+INFO: [VRFC 10-2458] undeclared symbol mem_req_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/mem_wb.v:146]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/pc_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/perips/ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/rib.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/perips/rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/perips/spi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/perips/timer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tinyriscv
+INFO: [VRFC 10-2458] undeclared symbol ex_jump_flag_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:171]
+INFO: [VRFC 10-2458] undeclared symbol ex_jump_addr_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:172]
+INFO: [VRFC 10-2458] undeclared symbol id_hold_flag_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:173]
+INFO: [VRFC 10-2458] undeclared symbol mem_hold_flag_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:174]
+INFO: [VRFC 10-2458] undeclared symbol wb_reg_we_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:189]
+INFO: [VRFC 10-2458] undeclared symbol wb_reg_waddr_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:190]
+INFO: [VRFC 10-2458] undeclared symbol wb_reg_wdata_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:191]
+INFO: [VRFC 10-2458] undeclared symbol wb_csr_we_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:206]
+INFO: [VRFC 10-2458] undeclared symbol wb_csr_waddr_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:208]
+INFO: [VRFC 10-2458] undeclared symbol wb_csr_wdata_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:209]
+INFO: [VRFC 10-2458] undeclared symbol wb_jump_flag_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:247]
+INFO: [VRFC 10-2458] undeclared symbol is_load_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:248]
+INFO: [VRFC 10-2458] undeclared symbol ex_reg_waddr_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:250]
+INFO: [VRFC 10-2458] undeclared symbol ex_reg_wdata_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:251]
+INFO: [VRFC 10-2458] undeclared symbol mem_reg_we_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:252]
+INFO: [VRFC 10-2458] undeclared symbol mem_reg_waddr_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:253]
+INFO: [VRFC 10-2458] undeclared symbol mem_reg_wdata_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:254]
+WARNING: [VRFC 10-2938] 'ex_jump_flag_o' is already implicitly declared on line 171 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:335]
+WARNING: [VRFC 10-2938] 'ex_jump_addr_o' is already implicitly declared on line 172 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:336]
+WARNING: [VRFC 10-2938] 'ex_reg_waddr_o' is already implicitly declared on line 250 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:337]
+WARNING: [VRFC 10-2938] 'ex_reg_wdata_o' is already implicitly declared on line 251 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:338]
+WARNING: [VRFC 10-2938] 'is_load_o' is already implicitly declared on line 248 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:339]
+WARNING: [VRFC 10-2938] 'mem_reg_we_o' is already implicitly declared on line 252 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:474]
+WARNING: [VRFC 10-2938] 'mem_reg_waddr_o' is already implicitly declared on line 253 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:475]
+WARNING: [VRFC 10-2938] 'mem_reg_wdata_o' is already implicitly declared on line 254 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:494]
+WARNING: [VRFC 10-2938] 'mem_hold_flag_o' is already implicitly declared on line 174 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:495]
+WARNING: [VRFC 10-2938] 'wb_reg_wdata_o' is already implicitly declared on line 191 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:628]
+WARNING: [VRFC 10-2938] 'wb_reg_we_o' is already implicitly declared on line 189 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:629]
+WARNING: [VRFC 10-2938] 'wb_reg_waddr_o' is already implicitly declared on line 190 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:630]
+WARNING: [VRFC 10-2938] 'wb_csr_wdata_o' is already implicitly declared on line 209 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:631]
+WARNING: [VRFC 10-2938] 'wb_csr_we_o' is already implicitly declared on line 206 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:632]
+WARNING: [VRFC 10-2938] 'wb_csr_waddr_o' is already implicitly declared on line 208 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:633]
+WARNING: [VRFC 10-2938] 'wb_jump_flag_o' is already implicitly declared on line 247 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:635]
+WARNING: [VRFC 10-3380] identifier 'mem_mem_we_o' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:142]
+WARNING: [VRFC 10-3380] identifier 'mem_mem_wdata_o' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:143]
+WARNING: [VRFC 10-3380] identifier 'mem_mem_req_o' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:144]
+WARNING: [VRFC 10-3380] identifier 'mem_mem_we_o' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/tinyriscv.v:145]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tinyriscv_soc_top
+INFO: [VRFC 10-2458] undeclared symbol m1_req_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:171]
+INFO: [VRFC 10-2458] undeclared symbol axil_hold_flag_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:184]
+INFO: [VRFC 10-2458] undeclared symbol axil_flush_flag_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:185]
+INFO: [VRFC 10-2458] undeclared symbol s4_req_o, assumed default net type wire [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:346]
+WARNING: [VRFC 10-2938] 'axil_hold_flag_o' is already implicitly declared on line 184 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:420]
+WARNING: [VRFC 10-2938] 'axil_flush_flag_o' is already implicitly declared on line 185 [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:421]
+WARNING: [VRFC 10-3380] identifier 'S_AXI_AWREADY' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:426]
+WARNING: [VRFC 10-3380] identifier 'S_AXI_WREADY' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:427]
+WARNING: [VRFC 10-3380] identifier 'S_AXI_BRESP' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:428]
+WARNING: [VRFC 10-3380] identifier 'S_AXI_BVALID' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:429]
+WARNING: [VRFC 10-3380] identifier 'S_AXI_ARREADY' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:430]
+WARNING: [VRFC 10-3380] identifier 'S_AXI_RDATA' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:431]
+WARNING: [VRFC 10-3380] identifier 'S_AXI_RRESP' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:432]
+WARNING: [VRFC 10-3380] identifier 'S_AXI_RVALID' is used before its declaration [D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/soc/tinyriscv_soc_top.v:433]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/perips/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/debug/uart_debug.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_debug
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.ip_user_files/rtl/core/wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Projects/RISCV/Harvard/tinyriscv/tinyriscv.sim/tinyriscv_soc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tinyriscv_soc_tb

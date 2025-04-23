@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Apr 22 20:20:58 2025
+# Process ID: 18592
+# Current directory: D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13896 D:\FPGA_Projects\RISCV\tinyriscv_4\tinyriscv\tinyriscv.xpr
+# Log file: D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv/vivado.log
+# Journal file: D:/FPGA_Projects/RISCV/tinyriscv_4/tinyriscv\vivado.jou
+# Running On: DESKTOP-QD5ODQ4, OS: Windows, CPU Frequency: 3418 MHz, CPU Physical cores: 16, Host memory: 34088 MB
+#-----------------------------------------------------------
+start_gui
